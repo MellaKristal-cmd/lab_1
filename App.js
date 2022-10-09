@@ -1,3 +1,15 @@
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 export function App() {
-    return <h1>Hello cascascworld!</h1>;
+    return<div style={{
+        backgroundColor: "green",
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between"
+    }}>
+        <Header />
+        <Footer />
+    </div>
+    
 }
