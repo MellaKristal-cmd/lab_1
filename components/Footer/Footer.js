@@ -23,5 +23,6 @@ export default function BoxSx() {
     >
       Footer
     </Box>
+    
   );
 }
